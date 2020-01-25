@@ -10,5 +10,9 @@ require "show_env_var"
 # require "pry"
 # Pry.start
 
+s = ShowEnvVar::Show.new
+s.show_environment_var
+s.show_nokogiri
+
 require "irb"
 IRB.start(__FILE__)

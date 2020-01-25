@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'show_env_var'
+
+s = ShowEnvVar::Show.new
+s.show_environment_var
+s.show_nokogiri

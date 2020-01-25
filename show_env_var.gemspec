@@ -1,4 +1,4 @@
-require_relative 'lib/show_env_var/version'
+require_relative './lib/show_env_var/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "show_env_var"
@@ -24,8 +24,18 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
 
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  # spec.bindir        = "exe"
+  spec.bindir        = "bin"
+  # spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = "show_env_var"
   spec.require_paths = ["lib"]
-  
+
+  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "rake", "~> 12.3.3"
+  spec.add_development_dependency "rspec", "~> 3.9.0"
+  spec.add_development_dependency "pry", "~> 0.12.2"
+
+  spec.add_dependency "nokogiri", "~> 1.10.7"
+  spec.add_dependency "json", "~> 2.3.0"
+
 end
