@@ -9,5 +9,6 @@ https://www.sitepoint.com/creating-your-first-gem/
 
 1. $ bundle gem show_env_var
 2. make CHANGELOG.md file in root
-2. create repo on github: https://github.com/FergusDevelopmentLLC/show_env_var
-3. $ git add --all
+3. create repo on github: https://github.com/FergusDevelopmentLLC/show_env_var
+4. $ git add --all
+5. $ git commit -m "initial commit"
