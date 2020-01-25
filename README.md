@@ -1,24 +1,18 @@
 # ShowEnvVar
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/show_env_var`. To experiment with that code, run `bin/console` for an interactive prompt.
+This app shows an environment variable
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it:
 
-```ruby
-gem 'show_env_var'
-```
+    $ gem install show_env_var
 
 And then execute:
 
     $ bundle install
 
-Or install it yourself as:
-
-    $ gem install show_env_var
 
 ## Usage
 
