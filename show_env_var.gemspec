@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.9.0"
   spec.add_development_dependency "pry", "~> 0.12.2"
 
-  spec.add_dependency "nokogiri", "~> 1.10.7"
+  spec.add_dependency "nokogiri", ">= 1.10.7", "< 1.14.0"
   spec.add_dependency "json", "~> 2.3.0"
 
 end
